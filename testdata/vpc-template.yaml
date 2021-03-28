@@ -1,0 +1,40 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Parameters:
+  VpcCidr:
+    Type: String
+
+  Env:
+    Type: String
+    AllowedValues:
+      - dev
+      - stg
+      - prd
+
+Resources:
+  VPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: !Ref VpcCidr
+      Tags:
+        - Key: Name
+          Value: vpc
+        # Forget to attach Env tag
+        # - Key: Env
+        #   Value: !Ref Env
+
+  InternetGateway:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+        # Forget to attach Name tag
+        # - Key: Name
+        #   Value: igw
+        - Key: Env
+          Value: !Ref Env
+
+  InternetGatewayAttachment:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      InternetGatewayId: !Ref InternetGateway
+      VpcId: !Ref VPC

@@ -1,0 +1,16 @@
+# This file is generated; DO NOT EDIT.
+package cfn.tag
+
+cfn_version := "{{ .CfnVersion }}"
+
+taggable_types := {
+	{{ range .Types -}}
+	"{{ . }}",
+	{{ end }}
+}
+
+taggable_resources[resources] {
+	input.Resources[r]
+	taggable_types[input.Resources[r].Type]
+	resources = r
+}
