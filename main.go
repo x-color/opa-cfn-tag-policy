@@ -32,8 +32,7 @@ type CloudFormationResourceSpecification struct {
 }
 
 type templateValue struct {
-	CfnVersion string
-	Types      []string
+	Types []string
 }
 
 //go:embed cfn_tag.rego.template
@@ -66,8 +65,7 @@ func main() {
 	}
 
 	tplValue := templateValue{
-		CfnVersion: cfnSpec.ResourceSpecificationVersion,
-		Types:      make([]string, 0),
+		Types: make([]string, 0),
 	}
 
 	for typ, spec := range cfnSpec.ResourceTypes {
