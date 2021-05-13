@@ -49,9 +49,9 @@ func downloadFile(url string) ([]byte, error) {
 }
 
 func main() {
-	// This JSON file defines the specification of the CloudFormation Template for Tokyo region (ap-northeast-1).
+	// This JSON file defines the specification of the CloudFormation Template for N.Virginia region (us-east-1).
 	// See https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-resource-specification.html
-	url := "https://d33vqc0rt9ld30.cloudfront.net/latest/gzip/CloudFormationResourceSpecification.json"
+	url := "https://d1uauaxba7bl26.cloudfront.net/latest/gzip/CloudFormationResourceSpecification.json"
 	body, err := downloadFile(url)
 	if err != nil {
 		fmt.Println(err)
