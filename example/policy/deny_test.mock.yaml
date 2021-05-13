@@ -1,0 +1,25 @@
+mock:
+  invalid:
+    Resources:
+      NoEnvVpc:
+        Type: AWS::EC2::VPC
+        Properties:
+          Tags:
+            - Key: Name
+              Value: no-env-vpc
+      NoNameVpc:
+        Type: AWS::EC2::VPC
+        Properties:
+          Tags:
+            - Key: Env
+              Value: dev
+  valid:
+    Resources:
+      VPC:
+        Type: AWS::EC2::VPC
+        Properties:
+          Tags:
+            - Key: Name
+              Value: vpc
+            - Key: Env
+              Value: dev
