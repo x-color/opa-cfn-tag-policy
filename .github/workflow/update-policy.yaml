@@ -1,0 +1,38 @@
+name: Update policy file
+
+on:
+  schedule:
+    - cron:  '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Go 1.16
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.16
+
+      - name: Install Open Policy Agent v0.28.0
+        run: |
+          curl -L -o opa https://openpolicyagent.org/downloads/v0.28.0/opa_linux_amd64
+          chmod 755 opa
+
+      - name: Generate policy file
+        run: go run main.go > policy/cfn-tag.rego
+
+      - name: Test generated policy
+        run: ./opa test policy
+
+      - name: Set up Git configuration
+        run: |
+          git config --local user.email "36035885+x-color@users.noreply.github.com"
+          git config --local user.name "x-color"
+
+      - name: Push new policy file to the repository
+        run: |
+          git add policy/cfn-tag.rego
+          git diff --cached --quiet || git commit -m "Update policy file" && git push origin main
