@@ -49,7 +49,7 @@ $ opa eval -d policy -i <cfn template file> data.<package name>
 Using Conftest
 
 ```bash
-$ conftest test <cfn template file>
+$ conftest test --policy <package name> <cfn template file>
 ```
 
 ## Sample
