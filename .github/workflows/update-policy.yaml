@@ -22,7 +22,7 @@ jobs:
           chmod 755 opa
 
       - name: Generate policy file
-        run: go run main.go > policy/cfn-tag.rego
+        run: go run main.go > policy/cfn_tag.rego
 
       - name: Test generated policy
         run: ./opa test policy
