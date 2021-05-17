@@ -322,6 +322,7 @@ taggable_types := {
     "AWS::SSM::MaintenanceWindow",
     "AWS::SSM::Parameter",
     "AWS::SSM::PatchBaseline",
+    "AWS::SSMIncidents::ResponsePlan",
     "AWS::SSO::PermissionSet",
     "AWS::SageMaker::App",
     "AWS::SageMaker::AppImageConfig",
