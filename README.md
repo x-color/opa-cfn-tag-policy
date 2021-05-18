@@ -27,7 +27,7 @@ import data.cloudformation as cfn
 deny[msg] {
   some id
 	rs := input.Resources[id]
-	not cfn.has_tag(rs, "<TAG NAME>")
+	not cfn.resource_has_tag(rs, "<TAG NAME>")
 	msg = sprintf("No '<TAG NAME>' tag: %v", [id])
 }
 
@@ -35,7 +35,7 @@ deny[msg] {
 deny[msg] {
   some id
 	rs := input.Resources[id]
-	not cfn.has_tag_and_value(rs, "<TAG NAME>", "<TAG VALUE>")
+	not cfn.resource_has_tag_and_value(rs, "<TAG NAME>", "<TAG VALUE>")
 	msg = sprintf("Invalid tag '<TAG NAME>' != '<TAG VALUE>': %v", [id])
 }
 ```
