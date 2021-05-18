@@ -374,14 +374,14 @@ taggable_types := {
     "AWS::XRay::SamplingRule",
 }
 
-has_tag(resource, tag) {
+resource_has_tag(resource, tag) {
     resource.Type == taggable_types[_]
     resource.Properties.Tags[_].Key == tag
 } else {
     count([r | taggable_types[r]; taggable_types[r] == resource.Type]) == 0
 }
 
-has_tag_and_value(resource, tag, value) {
+resource_has_tag_and_value(resource, tag, value) {
     resource.Type == taggable_types[_]
     some i
     resource.Properties.Tags[i].Key == tag
