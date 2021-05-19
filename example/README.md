@@ -40,7 +40,7 @@ $ opa eval -d policy -i templates/vpc-template.yaml data.main
 Using Conftest
 
 ```sh
-$ conftest pull --update https://raw.githubusercontent.com/x-color/opa-cfn-tag-policy/main/policy/cfn_tag.rego
+$ conftest pull https://raw.githubusercontent.com/x-color/opa-cfn-tag-policy/main/policy/cfn_tag.rego
 $ conftest test templates
 FAIL - templates/vpc-template.yaml - main - No 'Env' tag: VPC
 FAIL - templates/vpc-template.yaml - main - No 'Env' tag: InternetGateway

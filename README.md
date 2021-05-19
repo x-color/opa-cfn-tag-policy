@@ -13,7 +13,7 @@ Get the policy file.
 $ curl -L -o policy/cfn_tag.rego https://raw.githubusercontent.com/x-color/opa-cfn-tag-policy/main/policy/cfn_tag.rego
 
 # Pull the policy if you use Conftest (https://github.com/open-policy-agent/conftest)
-$ conftest pull --update https://raw.githubusercontent.com/x-color/opa-cfn-tag-policy/main/policy/cfn_tag.rego
+$ conftest pull https://raw.githubusercontent.com/x-color/opa-cfn-tag-policy/main/policy/cfn_tag.rego
 ```
 
 Import the policy and use functions in your policy files.
@@ -25,7 +25,7 @@ import data.cloudformation as cfn
 
 # Check that resources have 'TAG NAME' tag
 deny[msg] {
-  some id
+	some id
 	rs := input.Resources[id]
 	not cfn.resource_has_tag(rs, "<TAG NAME>")
 	msg = sprintf("No '<TAG NAME>' tag: %v", [id])
@@ -33,7 +33,7 @@ deny[msg] {
 
 # Check that resources have 'TAG NAME' tag and the tag's value is 'TAG VALUE'
 deny[msg] {
-  some id
+	some id
 	rs := input.Resources[id]
 	not cfn.resource_has_tag_and_value(rs, "<TAG NAME>", "<TAG VALUE>")
 	msg = sprintf("Invalid tag '<TAG NAME>' != '<TAG VALUE>': %v", [id])
