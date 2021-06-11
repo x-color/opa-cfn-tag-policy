@@ -329,6 +329,7 @@ taggable_types := {
     "AWS::SSO::PermissionSet",
     "AWS::SageMaker::App",
     "AWS::SageMaker::AppImageConfig",
+    "AWS::SageMaker::CodeRepository",
     "AWS::SageMaker::DataQualityJobDefinition",
     "AWS::SageMaker::Device",
     "AWS::SageMaker::DeviceFleet",
