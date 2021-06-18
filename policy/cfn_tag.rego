@@ -234,6 +234,7 @@ taggable_types := {
     "AWS::IoTWireless::WirelessDevice",
     "AWS::IoTWireless::WirelessGateway",
     "AWS::KMS::Key",
+    "AWS::KMS::ReplicaKey",
     "AWS::Kendra::DataSource",
     "AWS::Kendra::Faq",
     "AWS::Kendra::Index",
