@@ -70,6 +70,7 @@ taggable_types := {
     "AWS::Config::AggregationAuthorization",
     "AWS::Config::ConfigurationAggregator",
     "AWS::Config::StoredQuery",
+    "AWS::Connect::QuickConnect",
     "AWS::CustomerProfiles::Domain",
     "AWS::CustomerProfiles::Integration",
     "AWS::CustomerProfiles::ObjectType",
