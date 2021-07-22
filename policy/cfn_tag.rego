@@ -244,6 +244,7 @@ taggable_types := {
     "AWS::KinesisAnalyticsV2::Application",
     "AWS::KinesisFirehose::DeliveryStream",
     "AWS::Lambda::Function",
+    "AWS::LookoutEquipment::InferenceScheduler",
     "AWS::MSK::Cluster",
     "AWS::MWAA::Environment",
     "AWS::MediaConvert::JobTemplate",
