@@ -209,6 +209,7 @@ taggable_types := {
     "AWS::IoT::CustomMetric",
     "AWS::IoT::Dimension",
     "AWS::IoT::DomainConfiguration",
+    "AWS::IoT::FleetMetric",
     "AWS::IoT::MitigationAction",
     "AWS::IoT::ProvisioningTemplate",
     "AWS::IoT::ScheduledAudit",
