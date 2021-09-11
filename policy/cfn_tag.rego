@@ -127,6 +127,7 @@ taggable_types := {
     "AWS::EC2::TransitGatewayMulticastDomain",
     "AWS::EC2::TransitGatewayPeeringAttachment",
     "AWS::EC2::TransitGatewayRouteTable",
+    "AWS::EC2::TransitGatewayVpcAttachment",
     "AWS::EC2::VPC",
     "AWS::EC2::VPCPeeringConnection",
     "AWS::EC2::VPNConnection",
