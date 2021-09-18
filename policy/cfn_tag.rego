@@ -3,6 +3,7 @@ package cloudformation
 
 taggable_types := {
     "AWS::ACMPCA::CertificateAuthority",
+    "AWS::APS::Workspace",
     "AWS::AccessAnalyzer::Analyzer",
     "AWS::AmazonMQ::Broker",
     "AWS::AmazonMQ::Configuration",
@@ -189,6 +190,7 @@ taggable_types := {
     "AWS::GroundStation::Config",
     "AWS::GroundStation::DataflowEndpointGroup",
     "AWS::GroundStation::MissionProfile",
+    "AWS::HealthLake::FHIRDatastore",
     "AWS::IAM::OIDCProvider",
     "AWS::IAM::Role",
     "AWS::IAM::SAMLProvider",
@@ -277,6 +279,7 @@ taggable_types := {
     "AWS::NimbleStudio::StreamingImage",
     "AWS::NimbleStudio::Studio",
     "AWS::NimbleStudio::StudioComponent",
+    "AWS::OpenSearchService::Domain",
     "AWS::OpsWorks::Layer",
     "AWS::OpsWorks::Stack",
     "AWS::OpsWorksCM::Server",
