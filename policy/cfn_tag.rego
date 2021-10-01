@@ -3,6 +3,7 @@ package cloudformation
 
 taggable_types := {
     "AWS::ACMPCA::CertificateAuthority",
+    "AWS::APS::RuleGroupsNamespace",
     "AWS::APS::Workspace",
     "AWS::AccessAnalyzer::Analyzer",
     "AWS::AmazonMQ::Broker",
@@ -141,6 +142,7 @@ taggable_types := {
     "AWS::ECS::Service",
     "AWS::ECS::TaskDefinition",
     "AWS::EKS::Addon",
+    "AWS::EKS::Cluster",
     "AWS::EKS::FargateProfile",
     "AWS::EKS::Nodegroup",
     "AWS::EMR::Cluster",
