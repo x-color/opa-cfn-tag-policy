@@ -186,6 +186,8 @@ taggable_types := {
     "AWS::FIS::ExperimentTemplate",
     "AWS::FMS::Policy",
     "AWS::FSx::FileSystem",
+    "AWS::Forecast::Dataset",
+    "AWS::Forecast::DatasetGroup",
     "AWS::FraudDetector::Detector",
     "AWS::FraudDetector::EntityType",
     "AWS::FraudDetector::EventType",
