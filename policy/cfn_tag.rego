@@ -104,6 +104,7 @@ taggable_types := {
     "AWS::DataBrew::Schedule",
     "AWS::DataSync::Agent",
     "AWS::DataSync::LocationEFS",
+    "AWS::DataSync::LocationFSxLustre",
     "AWS::DataSync::LocationFSxWindows",
     "AWS::DataSync::LocationHDFS",
     "AWS::DataSync::LocationNFS",
