@@ -164,6 +164,7 @@ taggable_types := {
     "AWS::EKS::Addon",
     "AWS::EKS::Cluster",
     "AWS::EKS::FargateProfile",
+    "AWS::EKS::IdentityProviderConfig",
     "AWS::EKS::Nodegroup",
     "AWS::EMR::Cluster",
     "AWS::EMR::Studio",
