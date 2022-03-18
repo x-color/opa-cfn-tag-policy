@@ -72,6 +72,7 @@ taggable_types := {
     "AWS::CodeBuild::ReportGroup",
     "AWS::CodeCommit::Repository",
     "AWS::CodeDeploy::Application",
+    "AWS::CodeDeploy::DeploymentGroup",
     "AWS::CodeGuruProfiler::ProfilingGroup",
     "AWS::CodeGuruReviewer::RepositoryAssociation",
     "AWS::CodePipeline::CustomActionType",
