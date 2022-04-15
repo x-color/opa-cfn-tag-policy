@@ -38,6 +38,7 @@ taggable_types := {
     "AWS::AppMesh::VirtualNode",
     "AWS::AppMesh::VirtualRouter",
     "AWS::AppMesh::VirtualService",
+    "AWS::AppRunner::ObservabilityConfiguration",
     "AWS::AppRunner::Service",
     "AWS::AppRunner::VpcConnector",
     "AWS::AppStream::AppBlock",
