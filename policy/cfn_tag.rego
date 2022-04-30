@@ -136,6 +136,7 @@ taggable_types := {
     "AWS::EC2::IPAMScope",
     "AWS::EC2::Instance",
     "AWS::EC2::InternetGateway",
+    "AWS::EC2::KeyPair",
     "AWS::EC2::LocalGatewayRouteTableVPCAssociation",
     "AWS::EC2::NatGateway",
     "AWS::EC2::NetworkAcl",
