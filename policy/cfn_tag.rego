@@ -447,6 +447,7 @@ taggable_types := {
     "AWS::SageMaker::Model",
     "AWS::SageMaker::ModelBiasJobDefinition",
     "AWS::SageMaker::ModelExplainabilityJobDefinition",
+    "AWS::SageMaker::ModelPackage",
     "AWS::SageMaker::ModelPackageGroup",
     "AWS::SageMaker::ModelQualityJobDefinition",
     "AWS::SageMaker::MonitoringSchedule",
