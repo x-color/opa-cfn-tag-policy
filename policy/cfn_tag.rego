@@ -391,6 +391,7 @@ taggable_types := {
     "AWS::RDS::DBProxyEndpoint",
     "AWS::RDS::DBSecurityGroup",
     "AWS::RDS::DBSubnetGroup",
+    "AWS::RDS::EventSubscription",
     "AWS::RDS::OptionGroup",
     "AWS::RUM::AppMonitor",
     "AWS::Redshift::Cluster",
