@@ -92,6 +92,7 @@ taggable_types := {
     "AWS::Connect::HoursOfOperation",
     "AWS::Connect::PhoneNumber",
     "AWS::Connect::QuickConnect",
+    "AWS::Connect::TaskTemplate",
     "AWS::Connect::User",
     "AWS::CustomerProfiles::Domain",
     "AWS::CustomerProfiles::Integration",
