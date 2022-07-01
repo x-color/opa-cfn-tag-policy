@@ -115,6 +115,7 @@ taggable_types := {
     "AWS::DataSync::Agent",
     "AWS::DataSync::LocationEFS",
     "AWS::DataSync::LocationFSxLustre",
+    "AWS::DataSync::LocationFSxONTAP",
     "AWS::DataSync::LocationFSxOpenZFS",
     "AWS::DataSync::LocationFSxWindows",
     "AWS::DataSync::LocationHDFS",
