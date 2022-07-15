@@ -419,6 +419,7 @@ taggable_types := {
     "AWS::RoboMaker::Robot",
     "AWS::RoboMaker::RobotApplication",
     "AWS::RoboMaker::SimulationApplication",
+    "AWS::RolesAnywhere::CRL",
     "AWS::RolesAnywhere::Profile",
     "AWS::RolesAnywhere::TrustAnchor",
     "AWS::Route53RecoveryControl::Cluster",
