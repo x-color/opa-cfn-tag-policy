@@ -489,6 +489,7 @@ taggable_types := {
     "AWS::StepFunctions::Activity",
     "AWS::StepFunctions::StateMachine",
     "AWS::Synthetics::Canary",
+    "AWS::Synthetics::Group",
     "AWS::Timestream::Database",
     "AWS::Timestream::ScheduledQuery",
     "AWS::Timestream::Table",
