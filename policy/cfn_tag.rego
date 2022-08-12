@@ -328,6 +328,7 @@ taggable_types := {
     "AWS::Logs::LogGroup",
     "AWS::LookoutEquipment::InferenceScheduler",
     "AWS::MSK::Cluster",
+    "AWS::MSK::ServerlessCluster",
     "AWS::MWAA::Environment",
     "AWS::MediaConvert::JobTemplate",
     "AWS::MediaConvert::Preset",
