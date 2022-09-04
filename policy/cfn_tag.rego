@@ -330,6 +330,7 @@ taggable_types := {
     "AWS::MSK::Cluster",
     "AWS::MSK::ServerlessCluster",
     "AWS::MWAA::Environment",
+    "AWS::Macie::AllowList",
     "AWS::MediaConvert::JobTemplate",
     "AWS::MediaConvert::Preset",
     "AWS::MediaConvert::Queue",
