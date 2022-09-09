@@ -327,6 +327,7 @@ taggable_types := {
     "AWS::Lightsail::LoadBalancer",
     "AWS::Logs::LogGroup",
     "AWS::LookoutEquipment::InferenceScheduler",
+    "AWS::M2::Environment",
     "AWS::MSK::Cluster",
     "AWS::MSK::ServerlessCluster",
     "AWS::MWAA::Environment",
