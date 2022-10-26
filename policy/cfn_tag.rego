@@ -204,6 +204,7 @@ taggable_types := {
     "AWS::Evidently::Segment",
     "AWS::FIS::ExperimentTemplate",
     "AWS::FMS::Policy",
+    "AWS::FSx::DataRepositoryAssociation",
     "AWS::FSx::FileSystem",
     "AWS::FSx::Snapshot",
     "AWS::FSx::StorageVirtualMachine",
