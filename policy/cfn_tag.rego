@@ -41,6 +41,7 @@ taggable_types := {
     "AWS::AppRunner::ObservabilityConfiguration",
     "AWS::AppRunner::Service",
     "AWS::AppRunner::VpcConnector",
+    "AWS::AppRunner::VpcIngressConnection",
     "AWS::AppStream::AppBlock",
     "AWS::AppStream::Application",
     "AWS::AppStream::Fleet",
