@@ -153,6 +153,7 @@ taggable_types := {
     "AWS::EC2::NetworkInsightsAnalysis",
     "AWS::EC2::NetworkInsightsPath",
     "AWS::EC2::NetworkInterface",
+    "AWS::EC2::PlacementGroup",
     "AWS::EC2::PrefixList",
     "AWS::EC2::RouteTable",
     "AWS::EC2::SecurityGroup",
