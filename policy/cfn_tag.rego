@@ -326,6 +326,7 @@ taggable_types := {
     "AWS::Kendra::DataSource",
     "AWS::Kendra::Faq",
     "AWS::Kendra::Index",
+    "AWS::KendraRanking::ExecutionPlan",
     "AWS::Kinesis::Stream",
     "AWS::KinesisAnalyticsV2::Application",
     "AWS::KinesisFirehose::DeliveryStream",
