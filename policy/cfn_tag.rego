@@ -29,6 +29,8 @@ taggable_types := {
     "AWS::AppConfig::Deployment",
     "AWS::AppConfig::DeploymentStrategy",
     "AWS::AppConfig::Environment",
+    "AWS::AppConfig::Extension",
+    "AWS::AppConfig::ExtensionAssociation",
     "AWS::AppFlow::Flow",
     "AWS::AppIntegrations::DataIntegration",
     "AWS::AppIntegrations::EventIntegration",
