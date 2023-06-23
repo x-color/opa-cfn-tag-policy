@@ -258,6 +258,7 @@ taggable_types := {
     "AWS::GameLift::Script",
     "AWS::GlobalAccelerator::Accelerator",
     "AWS::Glue::Crawler",
+    "AWS::Glue::DataQualityRuleset",
     "AWS::Glue::DevEndpoint",
     "AWS::Glue::Job",
     "AWS::Glue::MLTransform",
