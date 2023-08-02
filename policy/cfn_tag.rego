@@ -125,6 +125,7 @@ taggable_types := {
     "AWS::DLM::LifecyclePolicy",
     "AWS::DMS::Endpoint",
     "AWS::DMS::EventSubscription",
+    "AWS::DMS::ReplicationConfig",
     "AWS::DMS::ReplicationInstance",
     "AWS::DMS::ReplicationSubnetGroup",
     "AWS::DMS::ReplicationTask",
