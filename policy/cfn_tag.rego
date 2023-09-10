@@ -270,7 +270,6 @@ taggable_types := {
     "AWS::GameLift::MatchmakingConfiguration",
     "AWS::GameLift::MatchmakingRuleSet",
     "AWS::GameLift::Script",
-    "AWS::GammaDilithium::JobDefinition",
     "AWS::GlobalAccelerator::Accelerator",
     "AWS::Glue::Crawler",
     "AWS::Glue::DataQualityRuleset",
