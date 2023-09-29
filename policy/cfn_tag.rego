@@ -24,7 +24,6 @@ taggable_types := {
     "AWS::ApiGatewayV2::DomainName",
     "AWS::ApiGatewayV2::Stage",
     "AWS::ApiGatewayV2::VpcLink",
-    "AWS::AppConfig::Application",
     "AWS::AppConfig::ConfigurationProfile",
     "AWS::AppConfig::Deployment",
     "AWS::AppConfig::DeploymentStrategy",
@@ -298,6 +297,7 @@ taggable_types := {
     "AWS::GuardDuty::Filter",
     "AWS::GuardDuty::IPSet",
     "AWS::GuardDuty::ThreatIntelSet",
+    "AWS::HealthImaging::Datastore",
     "AWS::HealthLake::FHIRDatastore",
     "AWS::IAM::OIDCProvider",
     "AWS::IAM::Role",
@@ -648,6 +648,7 @@ taggable_types := {
     "AWS::WorkSpacesWeb::UserSettings",
     "AWS::XRay::Group",
     "AWS::XRay::SamplingRule",
+    "Dev::AppConfig::Application",
 }
 
 resource_has_tag(resource, tag) {
