@@ -333,6 +333,8 @@ taggable_types := {
     "AWS::IoT::RoleAlias",
     "AWS::IoT::ScheduledAudit",
     "AWS::IoT::SecurityProfile",
+    "AWS::IoT::SoftwarePackage",
+    "AWS::IoT::SoftwarePackageVersion",
     "AWS::IoT::ThingGroup",
     "AWS::IoT::ThingType",
     "AWS::IoT::TopicRule",
