@@ -403,6 +403,7 @@ taggable_types := {
     "AWS::M2::Application",
     "AWS::M2::Environment",
     "AWS::MSK::Cluster",
+    "AWS::MSK::Replicator",
     "AWS::MSK::ServerlessCluster",
     "AWS::MSK::VpcConnection",
     "AWS::MWAA::Environment",
@@ -624,7 +625,6 @@ taggable_types := {
     "AWS::Transfer::Certificate",
     "AWS::Transfer::Connector",
     "AWS::Transfer::Profile",
-    "AWS::Transfer::Server",
     "AWS::Transfer::User",
     "AWS::Transfer::Workflow",
     "AWS::VoiceID::Domain",
@@ -654,6 +654,7 @@ taggable_types := {
     "AWS::WorkSpacesWeb::UserSettings",
     "AWS::XRay::Group",
     "AWS::XRay::SamplingRule",
+    "Dev::Transfer::Server",
 }
 
 resource_has_tag(resource, tag) {
