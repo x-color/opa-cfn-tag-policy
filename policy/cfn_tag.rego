@@ -625,6 +625,7 @@ taggable_types := {
     "AWS::Transfer::Certificate",
     "AWS::Transfer::Connector",
     "AWS::Transfer::Profile",
+    "AWS::Transfer::Server",
     "AWS::Transfer::User",
     "AWS::Transfer::Workflow",
     "AWS::VoiceID::Domain",
@@ -654,7 +655,6 @@ taggable_types := {
     "AWS::WorkSpacesWeb::UserSettings",
     "AWS::XRay::Group",
     "AWS::XRay::SamplingRule",
-    "Dev::Transfer::Server",
 }
 
 resource_has_tag(resource, tag) {
