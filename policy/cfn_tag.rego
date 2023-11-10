@@ -417,6 +417,7 @@ taggable_types := {
     "AWS::MediaLive::Channel",
     "AWS::MediaLive::Input",
     "AWS::MediaLive::InputSecurityGroup",
+    "AWS::MediaLive::Multiplex",
     "AWS::MediaPackage::Asset",
     "AWS::MediaPackage::Channel",
     "AWS::MediaPackage::OriginEndpoint",
