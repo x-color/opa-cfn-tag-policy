@@ -110,6 +110,7 @@ taggable_types := {
     "AWS::Connect::ContactFlowModule",
     "AWS::Connect::EvaluationForm",
     "AWS::Connect::HoursOfOperation",
+    "AWS::Connect::Instance",
     "AWS::Connect::PhoneNumber",
     "AWS::Connect::Prompt",
     "AWS::Connect::Queue",
