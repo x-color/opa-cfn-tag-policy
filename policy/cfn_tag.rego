@@ -93,6 +93,7 @@ taggable_types := {
     "AWS::CloudWatch::MetricStream",
     "AWS::CodeArtifact::Domain",
     "AWS::CodeArtifact::Repository",
+    "AWS::CodeBuild::Fleet",
     "AWS::CodeBuild::Project",
     "AWS::CodeBuild::ReportGroup",
     "AWS::CodeCommit::Repository",
