@@ -129,6 +129,7 @@ taggable_types := {
     "AWS::Connect::UserHierarchyGroup",
     "AWS::Connect::View",
     "AWS::ConnectCampaigns::Campaign",
+    "AWS::ControlTower::EnabledBaseline",
     "AWS::ControlTower::LandingZone",
     "AWS::CustomerProfiles::CalculatedAttributeDefinition",
     "AWS::CustomerProfiles::Domain",
