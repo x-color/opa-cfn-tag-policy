@@ -230,6 +230,7 @@ taggable_types := {
     "AWS::ECS::Cluster",
     "AWS::ECS::Service",
     "AWS::ECS::TaskDefinition",
+    "AWS::ECS::TaskSet",
     "AWS::EKS::AccessEntry",
     "AWS::EKS::Addon",
     "AWS::EKS::Cluster",
