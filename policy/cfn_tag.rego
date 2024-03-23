@@ -409,6 +409,8 @@ taggable_types := {
     "AWS::KMS::Key",
     "AWS::KMS::ReplicaKey",
     "AWS::KafkaConnect::Connector",
+    "AWS::KafkaConnect::CustomPlugin",
+    "AWS::KafkaConnect::WorkerConfiguration",
     "AWS::Kendra::DataSource",
     "AWS::Kendra::Faq",
     "AWS::Kendra::Index",
