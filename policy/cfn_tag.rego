@@ -4,6 +4,7 @@ package cloudformation
 taggable_types := {
     "AWS::ACMPCA::CertificateAuthority",
     "AWS::APS::RuleGroupsNamespace",
+    "AWS::APS::Scraper",
     "AWS::APS::Workspace",
     "AWS::AccessAnalyzer::Analyzer",
     "AWS::AmazonMQ::Broker",
@@ -64,6 +65,7 @@ taggable_types := {
     "AWS::B2BI::Partnership",
     "AWS::B2BI::Profile",
     "AWS::B2BI::Transformer",
+    "AWS::BCMDataExports::Export",
     "AWS::Backup::RestoreTestingPlan",
     "AWS::BackupGateway::Hypervisor",
     "AWS::Batch::ComputeEnvironment",
@@ -650,6 +652,7 @@ taggable_types := {
     "AWS::SecretsManager::Secret",
     "AWS::SecurityHub::AutomationRule",
     "AWS::SecurityHub::Hub",
+    "AWS::SecurityLake::DataLake",
     "AWS::ServiceCatalog::CloudFormationProduct",
     "AWS::ServiceCatalog::CloudFormationProvisionedProduct",
     "AWS::ServiceCatalog::Portfolio",
