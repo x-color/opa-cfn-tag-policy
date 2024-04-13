@@ -87,6 +87,7 @@ taggable_types := {
     "AWS::CleanRooms::ConfiguredTable",
     "AWS::CleanRooms::ConfiguredTableAssociation",
     "AWS::CleanRooms::Membership",
+    "AWS::CleanRooms::PrivacyBudgetTemplate",
     "AWS::CleanRoomsML::TrainingDataset",
     "AWS::Cloud9::EnvironmentEC2",
     "AWS::CloudFormation::Stack",
