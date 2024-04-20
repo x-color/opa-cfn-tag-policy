@@ -685,6 +685,7 @@ taggable_types := {
     "AWS::Synthetics::Group",
     "AWS::SystemsManagerSAP::Application",
     "AWS::Timestream::Database",
+    "AWS::Timestream::InfluxDBInstance",
     "AWS::Timestream::ScheduledQuery",
     "AWS::Timestream::Table",
     "AWS::Transfer::Agreement",
