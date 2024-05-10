@@ -644,6 +644,8 @@ taggable_types := {
     "AWS::SSMContacts::Rotation",
     "AWS::SSMIncidents::ReplicationSet",
     "AWS::SSMIncidents::ResponsePlan",
+    "AWS::SSO::Application",
+    "AWS::SSO::Instance",
     "AWS::SSO::PermissionSet",
     "AWS::SageMaker::App",
     "AWS::SageMaker::AppImageConfig",
