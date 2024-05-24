@@ -83,6 +83,8 @@ taggable_types := {
     "AWS::Cassandra::Keyspace",
     "AWS::Cassandra::Table",
     "AWS::CertificateManager::Certificate",
+    "AWS::Chatbot::MicrosoftTeamsChannelConfiguration",
+    "AWS::Chatbot::SlackChannelConfiguration",
     "AWS::CleanRooms::AnalysisTemplate",
     "AWS::CleanRooms::Collaboration",
     "AWS::CleanRooms::ConfiguredTable",
