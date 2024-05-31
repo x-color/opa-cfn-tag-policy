@@ -679,6 +679,7 @@ taggable_types := {
     "AWS::Scheduler::ScheduleGroup",
     "AWS::SecretsManager::Secret",
     "AWS::SecurityHub::AutomationRule",
+    "AWS::SecurityHub::ConfigurationPolicy",
     "AWS::SecurityHub::Hub",
     "AWS::SecurityLake::DataLake",
     "AWS::SecurityLake::Subscriber",
