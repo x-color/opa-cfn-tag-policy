@@ -736,6 +736,7 @@ taggable_types := {
     "AWS::Wisdom::KnowledgeBase",
     "AWS::WorkSpaces::ConnectionAlias",
     "AWS::WorkSpaces::Workspace",
+    "AWS::WorkSpaces::WorkspacesPool",
     "AWS::WorkSpacesThinClient::Environment",
     "AWS::WorkSpacesWeb::BrowserSettings",
     "AWS::WorkSpacesWeb::IpAccessSettings",
