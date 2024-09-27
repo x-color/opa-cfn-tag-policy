@@ -616,6 +616,7 @@ taggable_types := {
     "AWS::RDS::DBSecurityGroup",
     "AWS::RDS::DBSubnetGroup",
     "AWS::RDS::EventSubscription",
+    "AWS::RDS::GlobalCluster",
     "AWS::RDS::Integration",
     "AWS::RDS::OptionGroup",
     "AWS::RUM::AppMonitor",
