@@ -774,6 +774,7 @@ taggable_types := {
     "AWS::WorkSpaces::WorkspacesPool",
     "AWS::WorkSpacesThinClient::Environment",
     "AWS::WorkSpacesWeb::BrowserSettings",
+    "AWS::WorkSpacesWeb::IdentityProvider",
     "AWS::WorkSpacesWeb::IpAccessSettings",
     "AWS::WorkSpacesWeb::NetworkSettings",
     "AWS::WorkSpacesWeb::Portal",
