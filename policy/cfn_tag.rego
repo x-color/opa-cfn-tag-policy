@@ -112,6 +112,7 @@ taggable_types := {
     "AWS::CloudFront::AnycastIpList",
     "AWS::CloudFront::Distribution",
     "AWS::CloudFront::StreamingDistribution",
+    "AWS::CloudFront::VpcOrigin",
     "AWS::CloudTrail::Channel",
     "AWS::CloudTrail::Dashboard",
     "AWS::CloudTrail::EventDataStore",
