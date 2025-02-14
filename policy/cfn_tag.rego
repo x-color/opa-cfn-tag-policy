@@ -786,6 +786,7 @@ taggable_types := {
     "AWS::Transfer::Profile",
     "AWS::Transfer::Server",
     "AWS::Transfer::User",
+    "AWS::Transfer::WebApp",
     "AWS::Transfer::Workflow",
     "AWS::VoiceID::Domain",
     "AWS::VpcLattice::AccessLogSubscription",
