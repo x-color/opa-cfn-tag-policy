@@ -569,7 +569,6 @@ taggable_types := {
     "AWS::NetworkManager::TransitGatewayPeering",
     "AWS::NetworkManager::TransitGatewayRouteTableAttachment",
     "AWS::NetworkManager::VpcAttachment",
-    "AWS::NimbleStudio::StudioComponent",
     "AWS::Notifications::NotificationConfiguration",
     "AWS::NotificationsContacts::EmailContact",
     "AWS::OSIS::Pipeline",
