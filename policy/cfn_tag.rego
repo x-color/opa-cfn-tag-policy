@@ -115,6 +115,7 @@ taggable_types := {
     "AWS::CloudFormation::Stack",
     "AWS::CloudFormation::StackSet",
     "AWS::CloudFront::AnycastIpList",
+    "AWS::CloudFront::ConnectionGroup",
     "AWS::CloudFront::Distribution",
     "AWS::CloudFront::StreamingDistribution",
     "AWS::CloudFront::VpcOrigin",
