@@ -721,6 +721,7 @@ taggable_types := {
     "AWS::SES::ContactList",
     "AWS::SES::MailManagerAddonInstance",
     "AWS::SES::MailManagerAddonSubscription",
+    "AWS::SES::MailManagerAddressList",
     "AWS::SES::MailManagerArchive",
     "AWS::SES::MailManagerIngressPoint",
     "AWS::SES::MailManagerRelay",
