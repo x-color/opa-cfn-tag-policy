@@ -230,6 +230,7 @@ taggable_types := {
     "AWS::EC2::CustomerGateway",
     "AWS::EC2::DHCPOptions",
     "AWS::EC2::EIP",
+    "AWS::EC2::EgressOnlyInternetGateway",
     "AWS::EC2::FlowLog",
     "AWS::EC2::Host",
     "AWS::EC2::IPAM",
