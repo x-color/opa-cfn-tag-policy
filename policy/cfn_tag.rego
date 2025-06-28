@@ -3,6 +3,7 @@ package cloudformation
 
 taggable_types := {
     "AWS::ACMPCA::CertificateAuthority",
+    "AWS::AIOps::InvestigationGroup",
     "AWS::APS::RuleGroupsNamespace",
     "AWS::APS::Scraper",
     "AWS::APS::Workspace",
@@ -854,6 +855,7 @@ taggable_types := {
     "AWS::WorkSpacesWeb::TrustStore",
     "AWS::WorkSpacesWeb::UserAccessLoggingSettings",
     "AWS::WorkSpacesWeb::UserSettings",
+    "AWS::WorkspacesInstances::WorkspaceInstance",
     "AWS::XRay::Group",
     "AWS::XRay::SamplingRule",
 }
