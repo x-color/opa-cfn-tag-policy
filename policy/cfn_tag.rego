@@ -86,6 +86,8 @@ taggable_types := {
     "AWS::Bedrock::Agent",
     "AWS::Bedrock::AgentAlias",
     "AWS::Bedrock::ApplicationInferenceProfile",
+    "AWS::Bedrock::AutomatedReasoningPolicy",
+    "AWS::Bedrock::AutomatedReasoningPolicyVersion",
     "AWS::Bedrock::Blueprint",
     "AWS::Bedrock::DataAutomationProject",
     "AWS::Bedrock::Flow",
