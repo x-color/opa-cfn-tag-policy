@@ -616,6 +616,7 @@ taggable_types := {
     "AWS::ODB::CloudExadataInfrastructure",
     "AWS::ODB::CloudVmCluster",
     "AWS::ODB::OdbNetwork",
+    "AWS::ODB::OdbPeeringConnection",
     "AWS::OSIS::Pipeline",
     "AWS::Oam::Link",
     "AWS::Oam::Sink",
