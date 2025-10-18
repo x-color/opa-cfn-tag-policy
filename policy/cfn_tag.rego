@@ -354,6 +354,7 @@ taggable_types := {
     "AWS::FSx::DataRepositoryAssociation",
     "AWS::FSx::FileSystem",
     "AWS::FSx::Snapshot",
+    "AWS::FSx::StorageVirtualMachine",
     "AWS::FSx::Volume",
     "AWS::FinSpace::Environment",
     "AWS::Forecast::Dataset",
@@ -793,6 +794,7 @@ taggable_types := {
     "AWS::SSMIncidents::ReplicationSet",
     "AWS::SSMIncidents::ResponsePlan",
     "AWS::SSMQuickSetup::ConfigurationManager",
+    "AWS::SSMQuickSetup::LifecycleAutomation",
     "AWS::SSO::Application",
     "AWS::SSO::Instance",
     "AWS::SSO::PermissionSet",
@@ -908,7 +910,6 @@ taggable_types := {
     "AWS::WorkspacesInstances::WorkspaceInstance",
     "AWS::XRay::Group",
     "AWS::XRay::SamplingRule",
-    "Dev::FSx::StorageVirtualMachine",
 }
 
 resource_has_tag(resource, tag) {
