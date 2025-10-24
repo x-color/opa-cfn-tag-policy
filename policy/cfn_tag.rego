@@ -4,6 +4,7 @@ package cloudformation
 taggable_types := {
     "AWS::ACMPCA::CertificateAuthority",
     "AWS::AIOps::InvestigationGroup",
+    "AWS::APS::AnomalyDetector",
     "AWS::APS::RuleGroupsNamespace",
     "AWS::APS::Scraper",
     "AWS::APS::Workspace",
