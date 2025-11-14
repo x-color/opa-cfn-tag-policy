@@ -357,7 +357,6 @@ taggable_types := {
     "AWS::FSx::DataRepositoryAssociation",
     "AWS::FSx::FileSystem",
     "AWS::FSx::Snapshot",
-    "AWS::FSx::StorageVirtualMachine",
     "AWS::FSx::Volume",
     "AWS::FinSpace::Environment",
     "AWS::Forecast::Dataset",
@@ -714,6 +713,7 @@ taggable_types := {
     "AWS::RDS::GlobalCluster",
     "AWS::RDS::Integration",
     "AWS::RDS::OptionGroup",
+    "AWS::RTBFabric::InboundExternalLink",
     "AWS::RTBFabric::Link",
     "AWS::RTBFabric::RequesterGateway",
     "AWS::RTBFabric::ResponderGateway",
@@ -733,6 +733,7 @@ taggable_types := {
     "AWS::RefactorSpaces::Route",
     "AWS::RefactorSpaces::Service",
     "AWS::Rekognition::Collection",
+    "AWS::Rekognition::Project",
     "AWS::Rekognition::StreamProcessor",
     "AWS::ResilienceHub::App",
     "AWS::ResilienceHub::ResiliencyPolicy",
@@ -772,6 +773,8 @@ taggable_types := {
     "AWS::S3Express::AccessPoint",
     "AWS::S3Express::DirectoryBucket",
     "AWS::S3Outposts::Bucket",
+    "AWS::S3Tables::Table",
+    "AWS::S3Tables::TableBucket",
     "AWS::SES::ConfigurationSet",
     "AWS::SES::ContactList",
     "AWS::SES::DedicatedIpPool",
@@ -918,6 +921,7 @@ taggable_types := {
     "AWS::WorkspacesInstances::WorkspaceInstance",
     "AWS::XRay::Group",
     "AWS::XRay::SamplingRule",
+    "Dev::FSx::StorageVirtualMachine",
 }
 
 resource_has_tag(resource, tag) {
