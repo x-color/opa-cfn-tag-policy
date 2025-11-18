@@ -357,6 +357,7 @@ taggable_types := {
     "AWS::FSx::DataRepositoryAssociation",
     "AWS::FSx::FileSystem",
     "AWS::FSx::Snapshot",
+    "AWS::FSx::StorageVirtualMachine",
     "AWS::FSx::Volume",
     "AWS::FinSpace::Environment",
     "AWS::Forecast::Dataset",
@@ -564,6 +565,9 @@ taggable_types := {
     "AWS::Macie::CustomDataIdentifier",
     "AWS::Macie::FindingsFilter",
     "AWS::ManagedBlockchain::Accessor",
+    "AWS::MediaConnect::RouterInput",
+    "AWS::MediaConnect::RouterNetworkInterface",
+    "AWS::MediaConnect::RouterOutput",
     "AWS::MediaConvert::JobTemplate",
     "AWS::MediaConvert::Preset",
     "AWS::MediaConvert::Queue",
@@ -921,7 +925,6 @@ taggable_types := {
     "AWS::WorkspacesInstances::WorkspaceInstance",
     "AWS::XRay::Group",
     "AWS::XRay::SamplingRule",
-    "Dev::FSx::StorageVirtualMachine",
 }
 
 resource_has_tag(resource, tag) {
