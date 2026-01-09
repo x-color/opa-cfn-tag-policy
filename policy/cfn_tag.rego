@@ -249,6 +249,7 @@ taggable_types := {
     "AWS::DocDB::DBClusterParameterGroup",
     "AWS::DocDB::DBInstance",
     "AWS::DocDB::DBSubnetGroup",
+    "AWS::DocDB::GlobalCluster",
     "AWS::DocDBElastic::Cluster",
     "AWS::DynamoDB::Table",
     "AWS::EC2::CapacityManagerDataExport",
