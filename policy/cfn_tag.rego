@@ -580,6 +580,7 @@ taggable_types := {
     "AWS::MSK::ServerlessCluster",
     "AWS::MSK::VpcConnection",
     "AWS::MWAA::Environment",
+    "AWS::MWAAServerless::Workflow",
     "AWS::Macie::AllowList",
     "AWS::Macie::CustomDataIdentifier",
     "AWS::Macie::FindingsFilter",
