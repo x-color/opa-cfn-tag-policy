@@ -258,6 +258,8 @@ taggable_types := {
     "AWS::Deadline::Monitor",
     "AWS::Deadline::Queue",
     "AWS::Detective::Graph",
+    "AWS::DevOpsAgent::AgentSpace",
+    "AWS::DevOpsAgent::Service",
     "AWS::DirectConnect::Connection",
     "AWS::DirectConnect::DirectConnectGateway",
     "AWS::DirectConnect::Lag",
