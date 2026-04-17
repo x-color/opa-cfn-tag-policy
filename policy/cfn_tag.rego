@@ -674,6 +674,7 @@ taggable_types := {
     "AWS::Neptune::DBSubnetGroup",
     "AWS::Neptune::EventSubscription",
     "AWS::NeptuneGraph::Graph",
+    "AWS::NeptuneGraph::GraphSnapshot",
     "AWS::NetworkFirewall::Firewall",
     "AWS::NetworkFirewall::FirewallPolicy",
     "AWS::NetworkFirewall::RuleGroup",
