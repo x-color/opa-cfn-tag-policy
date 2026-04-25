@@ -523,7 +523,6 @@ taggable_types := {
     "AWS::IoT::SoftwarePackageVersion",
     "AWS::IoT::ThingGroup",
     "AWS::IoT::ThingType",
-    "AWS::IoT::TopicRule",
     "AWS::IoTAnalytics::Channel",
     "AWS::IoTAnalytics::Dataset",
     "AWS::IoTAnalytics::Datastore",
