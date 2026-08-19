@@ -1024,6 +1024,7 @@ taggable_types := {
     "AWS::SageMaker::ModelQualityJobDefinition",
     "AWS::SageMaker::MonitoringSchedule",
     "AWS::SageMaker::NotebookInstance",
+    "AWS::SageMaker::OptimizationJob",
     "AWS::SageMaker::PartnerApp",
     "AWS::SageMaker::Pipeline",
     "AWS::SageMaker::ProcessingJob",
